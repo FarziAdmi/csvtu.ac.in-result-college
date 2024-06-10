@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color : #F5F2E7;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff !important;
+    padding: 10px 20px;
+    color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.52);
+    
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.company-name {
+    font-style: bold;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2em;
+    color: #19366c;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.heading-container{
+    background-color: #37495f;
+    width: -webkit-fill-available;
+    color: white;
+
+    
+}
+
+.heading-container h1{
+    margin-left: 10px;
+}
+
+.button-container {
+    padding: 10px;
+}
+
+.button-1{
+    background-color: #516ea9;
+    color: white;
+    padding: 8px;
+    border-radius: 24px;
+    align-content: center;
+    height: 175px;
+    width: 400px;
+}
+.button-2{
+    background-color: #6f7973;
+    color: white;
+    padding: 8px;
+    border-radius: 24px;
+    align-content: center;
+    height: 175px;
+    width: 400px;
+}
+.button-3{
+    background-color: #f2b449;
+    color: white;
+    padding: 8px;
+    border-radius: 24px;
+    align-content: center;
+    height: 175px;
+    width: 400px;
+}
+.button-4{
+    background-color: #e25d33;
+    color: white;
+    padding: 8px;
+    border-radius: 24px;
+    align-content: center;
+    height: 175px;
+    width: 400px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(189, 186, 186);
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+
+
+
+
+
